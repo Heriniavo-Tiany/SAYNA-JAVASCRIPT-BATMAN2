@@ -96,7 +96,7 @@ p {
 
 /*Navbar*/
 .navbar {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     right: 0;
@@ -212,4 +212,7 @@ footer .flex p img {
 .answer input[type="checkbox"] {
     transform: scale(2.5);
     margin: 0 15px;
+}
+
+#divAnswer {
 }

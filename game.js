@@ -33,13 +33,24 @@ function displayQuestion(question, questions) {
     quizContainer.appendChild(questionHeading);
 
     var questionParagraph = document.createElement("p");
+    var divAnswer = document.createElement("div");
+    divAnswer.id = 'divAnswer';
     questionParagraph.textContent = questionText;
     quizContainer.appendChild(questionParagraph);
+    quizContainer.appendChild(divAnswer);
+    var img = document.createElement('img');
+    img.src = './assets/Game/' + questionNumber + '.png';
+    divAnswer.appendChild(img);
+
+// Create a div to contain the answers
+    var answersDiv = document.createElement("div");
+    answersDiv.classList.add("answers-container");
+    divAnswer.appendChild(answersDiv);
 
     answers.forEach(function (answer) {
         var answerDiv = document.createElement("div");
         answerDiv.classList.add("answer");
-        quizContainer.appendChild(answerDiv);
+        answersDiv.appendChild(answerDiv);
 
         var answerCheckbox = document.createElement("input");
         answerCheckbox.type = "checkbox";
@@ -51,7 +62,7 @@ function displayQuestion(question, questions) {
         answerDiv.appendChild(answerLabel);
 
         var lineBreak = document.createElement("br");
-        quizContainer.appendChild(lineBreak);
+        answersDiv.appendChild(lineBreak);
     });
 
     var nextQuestionButton = document.createElement("button");
