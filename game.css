@@ -197,3 +197,19 @@ footer .flex p img {
 .logo-sayna, .x-white-3 {
     margin-right: 10px;
 }
+
+.answer {
+    background: #757575;
+    width: 508px;
+    height: 42px;
+    text-align: left;
+    font-family: spaceGrotesk, Arial, sans-serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.answer input[type="checkbox"] {
+    transform: scale(2.5);
+    margin: 0 15px;
+}

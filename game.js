@@ -29,7 +29,7 @@ function displayQuestion(question, questions) {
     var answers = question.response;
 
     var questionHeading = document.createElement("h1");
-    questionHeading.textContent = "Question " + questionNumber;
+    questionHeading.textContent = questionNumber + "/12";
     quizContainer.appendChild(questionHeading);
 
     var questionParagraph = document.createElement("p");
@@ -37,14 +37,18 @@ function displayQuestion(question, questions) {
     quizContainer.appendChild(questionParagraph);
 
     answers.forEach(function (answer) {
+        var answerDiv = document.createElement("div");
+        answerDiv.classList.add("answer");
+        quizContainer.appendChild(answerDiv);
+
         var answerCheckbox = document.createElement("input");
         answerCheckbox.type = "checkbox";
         answerCheckbox.value = answer.text;
-        quizContainer.appendChild(answerCheckbox);
+        answerDiv.appendChild(answerCheckbox);
 
         var answerLabel = document.createElement("label");
         answerLabel.textContent = answer.text;
-        quizContainer.appendChild(answerLabel);
+        answerDiv.appendChild(answerLabel);
 
         var lineBreak = document.createElement("br");
         quizContainer.appendChild(lineBreak);
