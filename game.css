@@ -160,3 +160,35 @@ p {
     background: linear-gradient(to right, #675E57, #BF6F28);
     color: white;
 }
+
+footer {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+footer .flex p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 75%;
+    margin-bottom: 50px;
+}
+
+footer .flex p img {
+    margin-right: 10px;
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icons img:not(:last-child, .logo-sayna, .x-white-3) {
+    margin-right: 32px;
+}
+
+.logo-sayna, .x-white-3 {
+    margin-right: 10px;
+}
