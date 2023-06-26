@@ -1,6 +1,7 @@
 html, body {
     margin: 0;
     padding: 0;
+    background-color: black;
 }
 
 /*Colors*/
@@ -141,4 +142,21 @@ p {
 
 .hero h1 {
     margin-left: 200px;
+}
+
+#arrowDown {
+    margin: 100px 0;
+}
+
+#divGame {
+    text-align: center;
+    margin-bottom: 150px;
+}
+
+#demarrer {
+    margin-top: 100px;
+    border-radius: 0;
+    padding: 20px 73px;
+    background: linear-gradient(to right, #675E57, #BF6F28);
+    color: white;
 }
