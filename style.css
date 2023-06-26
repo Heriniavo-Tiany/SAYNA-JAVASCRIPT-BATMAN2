@@ -1,0 +1,1521 @@
+:root {
+    --yellow: #FFFF00;
+    --lightYellow: #F8F184;
+    --blue: #19587D;
+    --red: #B11313;
+    --black: #0D0E09;
+    --grey: #C4C4C4;
+}
+
+/*-------STYLES----------*/
+@import url("https://fonts.googleapis.com/css?family=Rajdhani:400,700,500,600|Space+Grotesk:400,700,500|Roboto:700");
+
+.hidden,
+.hidden * {
+    pointer-events: none;
+    visibility: hidden;
+}
+
+.batman-home-fil-rouge {
+    align-items: flex-start;
+    background-color: var(--black);
+    border: 1px none;
+    display: flex;
+    height: 8093px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.overlap-group6 {
+    height: 9462px;
+    margin-left: -2px;
+    margin-top: -0.36px;
+    position: relative;
+    /*width: 1442px;*/
+}
+
+.group-1624 {
+    align-items: flex-start;
+    display: flex;
+    height: 285px;
+    left: 279px;
+    min-width: 887px;
+    position: absolute;
+    top: 7349px;
+}
+
+.batman-home-fil-rouge .vector-3 {
+    height: 73px;
+    width: 98px;
+}
+
+.flex-col-2 {
+    align-items: center;
+    gap: 16px;
+    margin-left: 110px;
+    margin-top: 59px;
+    min-height: 152px;
+    width: 487px;
+}
+
+.batman-home-fil-rouge .flex-col-3 {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.ellipse-container {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+    margin-right: 5px;
+    min-width: 120px;
+}
+
+.ellipse-5 {
+    border: 1px solid;
+    border-color: var(--blumine);
+    border-radius: 3px;
+    height: 6px;
+    width: 6px;
+}
+
+.ellipse-51 {
+    background-color: var(--blumine);
+    border-radius: 4px;
+    height: 8px;
+    width: 8px;
+}
+
+.group-1591 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-height: 128px;
+    width: 487px;
+}
+
+.la-seule-faon-raiso {
+    color: var(--white);
+    font-family: var(--font-family-space_grotesk);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-right: 4px;
+    min-height: 56px;
+    text-align: center;
+    width: 483px;
+}
+
+.the-dark-knight-le {
+    color: #c4c4c4;
+    font-family: var(--font-family-space_grotesk);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-right: 6px;
+    min-height: 56px;
+    text-align: center;
+    width: 243px;
+}
+
+.vector-2 {
+    align-self: flex-end;
+    margin-left: 94px;
+}
+
+.group-1635 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 185px;
+    min-height: 1061px;
+    position: absolute;
+    top: 5061px;
+    width: 1078px;
+}
+
+.group-1568 {
+    height: 601px;
+    margin-top: 128px;
+    width: 1069px;
+}
+
+.group-1568:hover {
+    box-shadow: 5px 3px 25px rgba(255, 255, 255, 40);
+}
+
+.group-1590 {
+    align-items: flex-end;
+    display: flex;
+    height: 230px;
+    margin-left: 4px;
+    margin-top: 71px;
+    min-width: 1072px;
+}
+
+.overlap-group1-1 {
+    height: 256px;
+    margin-bottom: -22px;
+    position: relative;
+    width: 1072px;
+}
+
+.flches {
+    align-items: center;
+    display: flex;
+    gap: 984px;
+    height: 59px;
+    left: 0;
+    min-width: 1072px;
+    padding: 0 2px;
+    position: absolute;
+    top: 90px;
+}
+
+.polygon {
+    height: 48px;
+    width: 42px;
+}
+
+.overlap-group-1 {
+    align-items: flex-start;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6433b89c014ecf4629b18bb2/releases/6433bb6e1c238d5749f994ae/img/rectangle-7.svg);
+    background-size: 100% 100%;
+    display: flex;
+    gap: 15px;
+    height: 256px;
+    left: 259px;
+    min-width: 569px;
+    padding: 4px 13px;
+    position: absolute;
+    top: 0;
+}
+
+.flex-col-1 {
+    align-items: flex-start;
+    gap: 4px;
+    margin-bottom: 29px;
+    min-height: 187px;
+    width: 362px;
+}
+
+.small-label {
+    color: var(--silver);
+    font-family: var(--font-family-space_grotesk);
+    font-size: var(--font-size-xxxs);
+    font-weight: 700;
+    height: 16px;
+    letter-spacing: 2px;
+    line-height: 16px;
+    white-space: nowrap;
+}
+
+.valign-text-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.surname {
+    color: var(--concrete);
+    font-family: var(--font-family-space_grotesk);
+    font-size: var(--font-size-xxxs);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 16px;
+    margin-left: 0.44px;
+    min-height: 111px;
+    width: 362px;
+}
+
+.imdb {
+    align-items: flex-start;
+    border-radius: 8px;
+    display: flex;
+    gap: 4px;
+    position: relative;
+    width: 65px;
+}
+
+.text-1 {
+    color: #f8f184;
+    font-family: var(--font-family-space_grotesk);
+    font-size: var(--font-size-xxs);
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.imdb-1 {
+    color: var(--white);
+    font-family: var(--font-family-space_grotesk);
+    font-size: var(--font-size-xxs);
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 20px;
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.batman-begins {
+    color: var(--concrete);
+    font-family: var(--font-family-rajdhani);
+    font-size: var(--font-size-s);
+    font-weight: 400;
+    height: 28px;
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-left: 0.44px;
+    white-space: nowrap;
+}
+
+.x348748-1 {
+    height: 230px;
+    object-fit: cover;
+    width: 155px;
+}
+
+.multimdia {
+    letter-spacing: 1.08px;
+    line-height: normal;
+    margin-left: 6px;
+    min-height: 31px;
+    width: 194px;
+}
+
+.footer {
+    align-items: flex-start;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    height: 103px;
+    justify-content: flex-start;
+    left: 440px;
+    min-width: 554px;
+    position: absolute;
+    top: 7843px;
+    width: auto;
+}
+
+.icons-warner-bros {
+    height: 24px;
+    margin-top: 0;
+    width: 24px;
+}
+
+.flex-col {
+    align-self: flex-end;
+    flex-direction: column;
+    gap: 34px;
+    min-height: 97px;
+    width: 516px;
+}
+
+.batman-home-fil-rouge .flex {
+    align-items: center;
+    display: flex;
+}
+
+.ce-projet-respecte-l {
+    color: var(--white);
+    font-family: var(--font-family-space_grotesk);
+    font-size: var(--font-size-xxxxs);
+    font-weight: 400;
+    height: 12px;
+    letter-spacing: 0;
+    line-height: 12px;
+    min-width: 516px;
+    white-space: nowrap;
+}
+
+.flex-row {
+    gap: 42px;
+    margin-right: 29px;
+    min-width: 317px;
+    z-index: 4;
+}
+
+.group-1581 {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    min-width: 139px;
+}
+
+.vector {
+    height: 51px;
+    width: 51px;
+}
+
+.vector:hover {
+    content: url('./assets/Logos/icon_DC-hover.png');
+}
+
+.group-1537 {
+    align-items: center;
+    align-self: flex-end;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 0;
+    min-width: 72px;
+}
+
+.x-white-3 {
+    height: 18px;
+    margin-top: 1px;
+    object-fit: cover;
+    width: 18px;
+}
+
+.sayna-logo-blanc:hover {
+    content: url('./assets/Logos/logo_sayna_white-hover.png');
+}
+
+.sayna-logo-blanc {
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6433b89c014ecf4629b18bb2/releases/6433bb6e1c238d5749f994ae/img/sayna-logo---blanc@2x.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 49px;
+    width: 44px;
+}
+
+.social-icons {
+    align-items: flex-start;
+    display: flex;
+    gap: 32px;
+    margin-top: 1px;
+    position: relative;
+    width: fit-content;
+}
+
+.icons {
+    height: 24px;
+    min-width: 24px;
+    position: relative;
+}
+
+.boutons {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 420px;
+    min-height: 548px;
+    position: absolute;
+    top: 406px;
+    width: 603px;
+}
+
+.bf5-down-arrow {
+    height: 43px;
+    margin-left: 0.93px;
+    margin-top: 258px;
+    width: 74px;
+}
+
+.au-nom-de-ses-parent {
+    letter-spacing: 0;
+    line-height: 28px;
+    min-height: 138px;
+    text-align: center;
+    width: 603px;
+}
+
+.span1 {
+    color: var(--white);
+    font-family: var(--font-family-space_grotesk);
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.span2 {
+    color: var(--white);
+    font-family: var(--font-family-space_grotesk);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.overlap-group-container {
+    align-items: flex-start;
+    display: flex;
+    gap: 45px;
+    margin-right: 0.07px;
+    margin-top: 48px;
+    min-width: 541px;
+    z-index: 3;
+}
+
+.overlap-group1 {
+    align-items: center;
+    background: linear-gradient(180deg, rgba(137, 0, 8, 0.6) 0%, rgba(252, 232, 216, 0.4) 100%);
+    /*display: flex;*/
+    height: 64px;
+    min-width: 248px;
+    /*padding: 18.8px 54.3px;*/
+}
+
+.overlap-group1:hover, .overlap-group1:active {
+    background: linear-gradient(180deg, rgb(137, 0, 8) 0%, rgb(252, 232, 216) 100%);
+}
+
+.voir-le-hros {
+    letter-spacing: 1.6px;
+    line-height: normal;
+    min-height: 26px;
+    min-width: 139px;
+    text-align: center;
+}
+
+.overlap-group {
+    align-items: center;
+    background: linear-gradient(180deg, rgba(137, 0, 8, 0.6) 0%, rgba(252, 232, 216, 0.4) 100%);
+    /*display: flex;*/
+    height: 64px;
+    min-width: 248px;
+    /*padding: 18.8px 39.3px;*/
+}
+
+.overlap-group:hover, .overlap-group:active {
+    background: linear-gradient(180deg, rgb(137, 0, 8) 0%, rgb(252, 232, 216) 100%);
+}
+
+.les-adversaires {
+    letter-spacing: 1.6px;
+    line-height: normal;
+    min-height: 26px;
+    min-width: 168px;
+    text-align: center;
+}
+
+.logo {
+    height: 41px;
+    left: 195px;
+    position: absolute;
+    top: 56px;
+    width: 121px;
+}
+
+.menu-container {
+    height: 9462px;
+    left: 104px;
+    position: absolute;
+    top: 0;
+    width: 1236px;
+    /*z-index: -1;*/
+}
+
+.side-menu {
+    align-items: flex-start;
+    display: flex;
+    gap: 1195px;
+    height: 9462px;
+    left: 0;
+    min-width: 1236px;
+    padding: 0.4px 0;
+    position: absolute;
+    top: 0;
+    /*z-index: -1;*/
+}
+
+.side-menu__line {
+    height: 8093px;
+    margin-left: -2px;
+    width: 2px;
+}
+
+.side-menu__line-1 {
+    height: 8093px;
+    width: 3px;
+}
+
+.menu__line {
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 203px;
+    width: 1236px;
+}
+
+.frame-1584-1 {
+    height: 320px;
+    left: 1288px;
+    position: absolute;
+    top: 380px;
+    width: 104px;
+}
+
+.pngwing-1 {
+    height: 327px;
+    left: 1001px;
+    object-fit: cover;
+    position: absolute;
+    top: 2784px;
+    width: 441px;
+}
+
+.batman-home-fil-rouge .frame-3 {
+    display: flex;
+    width: fit-content;
+}
+
+.frame-758530932 {
+    align-items: center;
+    flex-direction: column;
+    gap: 150px;
+    left: 2px;
+    position: absolute;
+    top: 1036px;
+}
+
+.group-1633 {
+    height: 865px;
+    min-width: 1078px;
+    position: relative;
+}
+
+.frame-1 {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 82px;
+    position: relative;
+}
+
+.frame-2 {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 42px;
+    position: relative;
+}
+
+.name-3 {
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    text-align: justify;
+    width: 969px;
+}
+
+.allis {
+    height: 31px;
+    letter-spacing: 1.08px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 143px;
+}
+
+.frame-1640 {
+    align-items: flex-end;
+    gap: 84px;
+    position: relative;
+}
+
+.frame {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+    width: fit-content;
+}
+
+.personnage {
+    height: 458px;
+    min-width: 304px;
+    object-fit: cover;
+    position: relative;
+}
+
+.personnage:hover {
+    transform: scale(1.1);
+}
+
+.catwoman-zo-kravitz-2008 {
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.name-5 {
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.x510674-10 {
+    height: 454.99px;
+    min-width: 302px;
+    object-fit: cover;
+    position: relative;
+}
+
+.name-4 {
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.group-1637 {
+    height: 865px;
+    min-width: 1080px;
+    position: relative;
+}
+
+.group-1639 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 42px;
+    min-height: 865px;
+    width: 1080px;
+}
+
+.group-1636 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 82px;
+    min-height: 792px;
+    width: 1082px;
+}
+
+.frame-1636 {
+    align-items: flex-start;
+    gap: 84px;
+    position: relative;
+}
+
+.name {
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.x510674-3 {
+    height: 458px;
+    min-width: 304px;
+    position: relative;
+}
+
+.name-2 {
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.name-1 {
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.batman-home-fil-rouge .surname-3 {
+    letter-spacing: 0;
+    line-height: 28px;
+}
+
+.surname-1 {
+    min-height: 168px;
+    text-align: justify;
+    width: 969px;
+}
+
+.batman-au-cinma {
+    align-items: flex-start;
+    display: flex;
+    height: 31px;
+    min-width: 312px;
+}
+
+.batman-au-cinma-1 {
+    letter-spacing: 1.08px;
+    line-height: normal;
+    margin-top: -1px;
+    min-height: 31px;
+    width: 312px;
+}
+
+.group-1634 {
+    height: 938px;
+    /*min-width: 1440px;*/
+    position: relative;
+}
+
+.frame-1640-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 84px;
+    position: relative;
+    width: fit-content;
+}
+
+.lorsque-la-terre-est {
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    text-align: justify;
+    width: 969px;
+}
+
+.name-6 {
+    height: 31px;
+    letter-spacing: 1.08px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 302px;
+}
+
+.group-1627 {
+    height: 641px;
+    /*min-width: 1440px;*/
+    position: relative;
+}
+
+.overlap-group-2 {
+    height: 641px;
+    position: relative;
+    width: 1440px;
+}
+
+.shadow-3-1 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    height: 1107px;
+    left: 233px;
+    position: absolute;
+    top: -233px;
+    transform: rotate(-90deg);
+    width: 100%;
+}
+
+.x721135-1 {
+    height: 561px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 1438px;
+}
+
+.shadow-1-1 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    height: 256px;
+    left: 0;
+    position: absolute;
+    top: 385px;
+    /*width: 1440px;*/
+}
+
+.shadow-2-1 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    height: 105px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    /*width: 1440px;*/
+}
+
+.group-1638 {
+    height: 837px;
+    min-width: 1078px;
+    position: relative;
+}
+
+.nmsis {
+    height: 31px;
+    letter-spacing: 1.08px;
+    line-height: normal;
+    margin-top: -1px;
+    position: relative;
+    width: 143px;
+}
+
+.batman-souhaite-rad {
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    text-align: justify;
+    width: 969px;
+}
+
+.frame-1638 {
+    align-items: center;
+    gap: 84px;
+    position: relative;
+}
+
+.the-riddler-paul-dano-2022 {
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.darkseid-ray-porter-2022 {
+    letter-spacing: 0;
+    line-height: 28px;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.x510674-5 {
+    height: 454.99px;
+    min-width: 302px;
+    object-fit: cover;
+    position: relative;
+}
+
+.surname-2 {
+    position: relative;
+    text-align: center;
+    width: fit-content;
+}
+
+.contact {
+    align-items: flex-end;
+    display: flex;
+    height: 871px;
+    justify-content: flex-end;
+    left: 0;
+    /*min-width: 1442px;*/
+    position: absolute;
+    top: 6300px;
+}
+
+.overlap-group4 {
+    align-items: center;
+    background-image: url(https://anima-uploads.s3.amazonaws.com/projects/6433b89c014ecf4629b18bb2/releases/6433bb6e1c238d5749f994ae/img/rectangle-7-1.svg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -22px;
+    min-height: 897px;
+    /*padding: 55px 358px;*/
+    width: 1440px;
+}
+
+.frame-1583 {
+    align-items: flex-start;
+    background: linear-gradient(180deg, rgba(137, 0, 8, 0.6) 0%, rgba(252, 232, 216, 0.4) 100%);
+    gap: 8px;
+    margin-right: 2px;
+    margin-top: 43px;
+    padding: 19px 82px;
+    position: relative;
+}
+
+.frame-1583:hover {
+    background: linear-gradient(180deg, rgb(137, 0, 8) 0%, rgb(252, 232, 216) 100%);
+}
+
+.confirmer {
+    letter-spacing: 1.6px;
+    line-height: normal;
+    position: relative;
+    text-align: center;
+    width: fit-content;
+    border: none;
+}
+
+.prenons-contact {
+    letter-spacing: 1.08px;
+    line-height: normal;
+    min-height: 31px;
+    margin-top: 50px;
+}
+
+.overlap-group5 {
+    align-self: center;
+    height: 527px;
+    margin-top: 97px;
+    position: relative;
+    width: 715px;
+}
+
+.line-30 {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 336px;
+    width: 709px;
+}
+
+.polygon-1 {
+    height: 18px;
+    left: 677px;
+    position: absolute;
+    top: 258px;
+    width: 21px;
+}
+
+.boutons-newsletter {
+    align-items: flex-start;
+    display: flex;
+    gap: 42px;
+    left: 154px;
+    position: absolute;
+    top: 363px;
+    width: fit-content;
+}
+
+.base_-films_-newsletter {
+    height: 37px;
+    min-width: 104px;
+    position: relative;
+}
+
+.films_-newsletter {
+    align-items: flex-start;
+    display: flex;
+    height: 37px;
+    min-width: 104px;
+}
+
+.frame-1584 {
+    align-items: flex-start;
+    border: 1px solid;
+    border-color: transparent;
+    border-image: linear-gradient(to bottom, rgb(25, 88, 125), rgba(237, 222, 191, 0.4)) 1;
+    gap: 10px;
+    padding: 10px 28px;
+    position: relative;
+}
+
+.frame-1584:hover {
+    background: linear-gradient(to bottom, rgb(25, 88, 125), rgba(237, 222, 191, 0.4)) 100%;
+}
+
+.des-films {
+    letter-spacing: -0.41px;
+    line-height: 17px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.group-1587 {
+    height: 37px;
+    min-width: 114px;
+    position: relative;
+}
+
+.des-films-1 {
+    letter-spacing: -0.41px;
+    line-height: 17px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.group-1584 {
+    height: 37px;
+    min-width: 93px;
+    position: relative;
+}
+
+.de-tout {
+    letter-spacing: -0.41px;
+    line-height: 17px;
+    margin-top: -1px;
+    position: relative;
+    text-align: center;
+    white-space: nowrap;
+    width: fit-content;
+}
+
+.rectangle-31 {
+    background-color: var(--white);
+    border: 1px solid;
+    border-color: var(--blumine);
+    height: 20px;
+    left: 186px;
+    position: absolute;
+    top: 212px;
+    width: 20px;
+}
+
+.group-1579 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    left: 0;
+    min-height: 527px;
+    position: absolute;
+    top: 0;
+    width: 715px;
+}
+
+.adresse-email {
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: center;
+    white-space: nowrap;
+    width: 163px;
+}
+
+.overlap-group3 {
+    height: 477px;
+    position: relative;
+    width: 717px;
+}
+
+.newsletter {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 78px;
+    white-space: nowrap;
+    width: 137px;
+}
+
+.message {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 399px;
+    white-space: nowrap;
+    width: 99px;
+}
+
+.group-1573 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    min-height: 477px;
+    opacity: 0.72;
+    position: absolute;
+    top: 0;
+    width: 717px;
+}
+
+.overlap-group-3 {
+    height: 28px;
+    position: relative;
+    width: 709px;
+}
+
+.adresse-email-1 {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 107px;
+}
+
+.line {
+    height: 1px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 27px;
+    width: 709px;
+}
+
+.en-cochant-cette-cas {
+    letter-spacing: 0;
+    line-height: 28px;
+    margin-left: 1px;
+    margin-top: 100px;
+    min-height: 56px;
+    width: 616px;
+}
+
+.overlap-group2 {
+    height: 28px;
+    margin-top: 215px;
+    position: relative;
+    width: 709px;
+}
+
+.laissez-un-commentai {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 356px;
+}
+
+.overlap-group1-2 {
+    height: 28px;
+    margin-top: 22px;
+    position: relative;
+    width: 709px;
+}
+
+.choisissez-la-frque {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    white-space: nowrap;
+    width: 578px;
+}
+
+.souhaitez-vous-recevoir-des-news {
+    left: 0;
+    letter-spacing: 0;
+    line-height: 28px;
+    position: absolute;
+    top: 308px;
+    white-space: nowrap;
+    width: 348px;
+}
+
+.pngwing {
+    height: 130px;
+    left: 263px;
+    object-fit: cover;
+    position: absolute;
+    top: 1973px;
+    width: 150px;
+}
+
+.img {
+    align-items: flex-start;
+    background-image: url(assets/Illustrations/Bathome1.png);
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    height: 901px;
+    left: 2px;
+    /*min-width: 1440px;*/
+    position: absolute;
+    top: 0;
+}
+
+.shadow-container {
+    height: 901px;
+    margin-top: 0;
+    position: relative;
+    width: 1440px;
+}
+
+.shadow-1 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    height: 360px;
+    left: 0;
+    position: absolute;
+    top: 541px;
+    width: 1440px;
+}
+
+.shadow-2 {
+    align-items: flex-end;
+    /*background: linear-gradient(180deg, rgba(216, 7, 7, 0) 100%, rgb(0, 0, 0) 0%);*/
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    height: 147px;
+    left: 0;
+    padding: 55.5px 167px;
+    /*    position: absolute;*/
+    /*    top: 0;*/
+    /*    width: 1440px;*/
+}
+
+.menu__line-tab {
+    height: 1px;
+    margin-right: 3.88px;
+    object-fit: cover;
+    width: 76px;
+}
+
+.place {
+    color: var(--white);
+    font-family: var(--font-family-rajdhani);
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.84px;
+    line-height: normal;
+    margin-top: 4px;
+    min-height: 26px;
+    width: 77px;
+    z-index: 5;
+}
+
+.place:hover {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.shadow-3 {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    height: 1107px;
+    left: 103px;
+    position: absolute;
+    top: -103px;
+    transform: rotate(-90deg);
+    width: 901px;
+}
+
+.social-icons-1 {
+
+    left: 1248px;
+    position: absolute;
+    top: 380px;
+    width: 104px;
+
+    align-items: flex-start;
+    display: flex;
+    gap: 32px;
+    /*left: 1272px;*/
+    /*position: absolute;*/
+    /*top: 528px;*/
+    transform: rotate(90deg);
+    /*width: fit-content;*/
+}
+
+.icons-1 {
+    height: 24px;
+    /*min-width: 24px;*/
+    position: relative;
+    transform: rotate(-90deg);
+}
+
+
+/* Variables */
+
+:root {
+    --black: rgba(0, 0, 0, 1);
+    --blumine: rgba(25, 88, 125, 1);
+    --silver: rgba(188, 187, 189, 1);
+    --concrete: rgba(242, 242, 242, 1);
+    --white: rgba(255, 255, 255, 1);
+
+    --font-size-xxxxs: 10px;
+    --font-size-xxxs: 12px;
+    --font-size-xxs: 14px;
+    --font-size-xs: 16px;
+    --font-size-s: 18px;
+    --font-size-m: 22px;
+    --font-size-l: 36px;
+
+    --font-family-rajdhani: "Rajdhani";
+    --font-family-roboto: "Roboto";
+    --font-family-space_grotesk: "Space Grotesk";
+}
+
+/* Classes */
+
+.roboto-bold-concrete-12px {
+    color: var(--concrete
+    );
+    font-family: var(--font-family-roboto
+    );
+    font-size: var(--font-size-xxxs
+    );
+    font-weight: 700;
+    font-style: normal;
+}
+
+.spacegrotesk-normal-silver-16px {
+    color: var(--silver
+    );
+    font-family: var(--font-family-space_grotesk
+    );
+    font-size: var(--font-size-xs
+    );
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rajdhani-medium-white-20px {
+    color: var(--white
+    );
+    font-family: var(--font-family-rajdhani
+    );
+    font-size: 20px;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.spacegrotesk-normal-white-22px {
+    color: var(--white
+    );
+    font-family: var(--font-family-space_grotesk
+    );
+    font-size: var(--font-size-m
+    );
+    font-weight: 400;
+    font-style: normal;
+}
+
+.rajdhani-semi-bold-white-22px {
+    color: var(--white
+    );
+    font-family: var(--font-family-rajdhani
+    );
+    font-size: var(--font-size-m
+    );
+    font-weight: 600;
+    font-style: normal;
+}
+
+.rajdhani-bold-white-36px {
+    color: var(--white
+    );
+    font-family: var(--font-family-rajdhani
+    );
+    font-size: var(--font-size-l
+    );
+    font-weight: 700;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#logohome, #arrows {
+    z-index: 3;
+}
+
+#logohome:hover {
+    content: url('./assets/Logos/logohome-hover.png');
+}
+
+#arrows:hover {
+    content: url('./assets/Logos/frame-1584.png');
+}
+
+.logo-fb:hover {
+    content: url('./assets/Logos/icon_facebook-hover.png');
+}
+
+.logo-up:hover {
+    content: url('./assets/Logos/logo_bat_flèche_hover.png');
+}
+
+.logo-down:hover {
+    content: url('./assets/Logos/logo_bat_flèche_2hover.png');
+}
+
+
+.social-icons-1 {
+    z-index: 44;
+}
+
+.logo-ig:hover {
+    content: url('./assets/Logos/icon_ig-hover.png');
+}
+
+.logo-tw:hover {
+    content: url('./assets/Logos/icon_tw-hover.png');
+}
+
+.input-text {
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 100%;
+    color: white;
+}
+
+#select-contact {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    width: 100%;
+    height: 45px;
+    color: white;
+}
+
+option {
+    color: black;
+}
+
+
+/* Define the fade-in animation */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+/* Apply the fade-in animation to all elements */
+* {
+    animation: fade-in 1s ease-out;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background: linear-gradient(to bottom, rgb(25, 88, 125), rgba(237, 222, 191, 0.4)) 100%;
+border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    z-index: 9999;
+}
+
+.close-btn {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
