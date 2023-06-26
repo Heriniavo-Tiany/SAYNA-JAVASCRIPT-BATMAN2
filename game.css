@@ -3,6 +3,7 @@ html, body {
     padding: 0;
 }
 
+/*Colors*/
 :root {
     --white: #FFFFFF;
     --yellow: #FFFF00;
@@ -41,6 +42,46 @@ html, body {
     color: var(--grey);
 }
 
+/*FONTS*/
+@font-face {
+    font-family: rajdhani;
+    src: url('./assets/fonts/rajdhani/Rajdhani-Medium.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: spaceGrotesk-Bold;
+    src: url('./assets/fonts/space-grotesk/SpaceGrotesk-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: spaceGrotesk;
+    src: url('./assets/fonts/space-grotesk/SpaceGrotesk-Regular.ttf') format('truetype');
+}
+
+h1 {
+    font-family: rajdhani, Arial, sans-serif;
+    font-size: 36px;
+}
+
+button {
+    font-family: rajdhani, Arial, sans-serif;
+    font-size: 20px;
+}
+
+h2 {
+    font-family: spaceGrotesk-Bold, Arial, sans-serif;
+    font-size: 12px;
+}
+
+p {
+    font-family: spaceGrotesk, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.spaceGrotesk {
+    font-family: spaceGrotesk, Arial, sans-serif;
+}
+
 /* Set the hero section to occupy the full height of the viewport */
 .hero {
     height: 100vh;
@@ -51,6 +92,11 @@ html, body {
     background-size: cover;
     background-position: center;
 }
+
+
+
+
+
 
 /*Navbar*/
 .navbar {
