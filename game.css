@@ -87,16 +87,11 @@ p {
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     background-image: url('./assets/Game/Batgame_1.png');
     background-size: cover;
     background-position: center;
 }
-
-
-
-
-
 
 /*Navbar*/
 .navbar {
@@ -139,3 +134,11 @@ p {
     font-size: 18px;
 }
 
+#game {
+    margin-left: 25px;
+    text-decoration: underline;
+}
+
+.hero h1 {
+    margin-left: 200px;
+}
