@@ -66,7 +66,8 @@ function displayQuestion(question, questions) {
     });
 
     var nextQuestionButton = document.createElement("button");
-    nextQuestionButton.textContent = "Next Question";
+    nextQuestionButton.textContent = "QUESTION SUIVANTE";
+    nextQuestionButton.id = 'demarrer';
     quizContainer.appendChild(nextQuestionButton);
     nextQuestionButton.addEventListener("click", function () {
         questionIndex++;
